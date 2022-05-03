@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="fa">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    <!--Meta Tags Start-->
+        <meta name="title" content="سورآپ">
+        <meta name="description" content="ما در این وب سایت قصد داریم به نقد و بررسی نرم افزار های جدید و تخصصی بپردازیم و کنار آن هم کمی آموزش برنامه نویسی به صورت مبتدی و حرفه ای آماده کنیم. شما می توانید انواع پروژه های خود نظر وب موبایل ویندوز لینوکس مک خود را به ما بسپارید با قیمت معقول و کمتر از بازار باتشکر از مطالعه متن.">
+        <meta name="keywords" content="سورآپ,سوراپ,تکنولوژی,برنامه نویسی,امنیت,جاوا,سی شارپ,اندروید,وب,کد,پی اچ پی,لاراول,موبایل,بزرگ ترین برنامه نویس">
+        <meta name="robots" content="index, follow">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="revisit-after" content="1 days">
+    <!--Meta Tags End-->
+
+    <!--Owl Start-->
+    <link href="Assets/Style/owl.carousel.min.css" rel="stylesheet" type="text/css">
+    <link href="Assets/Style/owl.theme.default.min.css" rel="stylesheet" type="text/css">
+    <!--Owl End-->
+
+    <!--Boot Starp Start-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!--Boot Starp End-->
+
+    <!--Style Sheet Start-->
+    <link href="Assets/Style/style.css" rel="stylesheet" type="text/css">
+    <!--Style Sheet End-->
+
+    <!--Title Icon Start-->
+    <link href="Assets/Img/logo.png" rel="icon">
+    <!--Title Icon End-->
+
+    <!-- Css Material Icons Start-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Css Material Icons End-->
+    
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>سیستم مدیریت محتوای من</title>
+
+</head>
+<body>
+
+
+
+    <!--All Menu Start-->
+    <section>
+        <!--Mobile Menu Start-->
+        <div id="Mobile_Menu_Ly">
+            <div id="Mobile_Menu">
+                <div id="Mobile_Menu_Button" onclick="Onclick_Mobile_Menu_Button(this)">
+                    <div id="Mobile_Menu_Top_Border"></div>
+                    <div id="Mobile_Menu_Down_Border"></div>
+                </div>
+            </div>
+
+            <div id="Mobile_Menu_Icon">
+                <img src="Assets/Img/logo.png" width="85%"/>
+            </div>
+        </div>
+        <!--Mobile Menu End-->
+
+
+        <!--Menu Start-->
+        <div id="Menu">
+            <ul id="Menu_Item_Border">
+                <a href="#" id="Computer_Logo"><img src="Assets/Img/logo.png" width="65px" style="margin: 15px 50px 15px 40px;"></a>
+                <li><a href="http://sorapp.ir/index.php">خانه</a></li>
+                
+                <!--Menu Start-->
+                <li><a href="#">بلاگ</a></li>
+                <li><a href="#">سفارش</a></li>
+                <li><a href="#">فروشگاه</a></li>            
+                <!--Menu End-->
+                
+                <li id="Search-Bar-Ly"><a href="#" onclick="Search_ly(this)"><i class="material-icons dp48">search</i></a></li>
+                <li><a id="login" href="#">ورود</a></li>
+                <li id="Sign-in-Ly"><a id="Sign-in" href="#">ثبت نام</a></li>
+            </ul>
+        </div>
+        <!--Menu End-->
+
+
+        <!--Search Layout Start-->
+        <div id="Search_Ly">
+            <a href="#" id="Close_Search" onclick="Close_Search(this)"><i class="material-icons dp48">close</i></a>
+            <div id="Search_Ly_Inside">
+                <div id="Search_Ly_Inside_Inside">
+                    <center>
+                        <form role="search" method="get" id="searchform" class="searchform" action="#">
+                            <img src="Assets/Img/logo.png" width="90px"/>
+                            <br>
+                            <br>
+                            <br>
+                            <input type="search" id="Search_TextView" class="search-field" placeholder="جست و جو" name="s" />
+                        </form>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <!--Search Layout End-->
+        
+    </section>
+    <!--All Menu End-->
+
+
+
+
+    <!--All Header Start-->
+    <section>
+        <div id="Header">
+            <div id="Header-Inside">
+            </div>
+        </div>
+    </section>
+    <!--All Header End-->
+
+
+
+
+    <!--Description Start-->
+    <section style="display:none;">
+        <p class="RTL_CLS">
+            ما در این وب سایت قصد داریم به نقد و بررسی نرم افزار های جدید و تخصصی بپردازیم و کنار آن هم کمی آموزش برنامه نویسی به صورت مبتدی و حرفه ای آماده کنیم. شما می توانید انواع پروژه های خود نظر وب موبایل ویندوز لینوکس مک خود را به ما بسپارید با قیمت معقول و کمتر از بازار باتشکر از مطالعه متن.
+        </p>
+    </section>
+    <!--Description End-->
+
+
+
+
+    
+    <!--Last Store Items Start-->
+    <section>
+
+        <div class="swipe_last_post_bar">
+
+            <div class="Context_Header_Text">
+                <h4>محصولات جدید</h4>
+            </div>
+
+            <div id="owl-demo" class="owl-carousel owl-theme">
+                <div class="item center_content">
+                    <a href="#">
+                        <div class="owl_item_background center_content">
+                            <h6>سری جدید پاییز کد 16</h6>
+                        </div>
+                        <img src="Assets/Img/Man.jpeg" style="z-index: 1;"/>
+                    </a>
+                </div>
+                <div class="item center_content">
+                    <a href="#">
+                        <div class="owl_item_background center_content">
+                            <h6>سری جدید پاییز کد 17</h6>
+                        </div>
+                        <img src="Assets/Img/Man.jpeg" style="z-index: 1;"/>
+                    </a>
+                </div>
+                <div class="item center_content">
+                    <a href="#">
+                        <div class="owl_item_background center_content">
+                            <h6>سری جدید پاییز کد 18</h6>
+                        </div>
+                        <img src="Assets/Img/Man.jpeg" style="z-index: 1;"/>
+                    </a>
+                </div>
+                <div class="item center_content">
+                    <a href="#">
+                        <div class="owl_item_background center_content">
+                            <h6>سری جدید پاییز کد 19</h6>
+                        </div>
+                        <img src="Assets/Img/Man.jpeg" style="z-index: 1;"/>
+                    </a>
+                </div>
+                <div class="item center_content">
+                    <a href="#">
+                        <div class="owl_item_background center_content">
+                            <h6>سری جدید پاییز کد 20</h6>
+                        </div>
+                        <img src="Assets/Img/Man.jpeg" style="z-index: 1;"/>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+            <!--JQuery Start-->
+    <script src="Assets/Js/jquery-3.6.0.min.js"></script>
+    <!--JQuery End-->
+
+    <!--Owl Start-->
+    <script src="Assets/Js/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function() 
+        {
+        
+            $("#owl-demo").owlCarousel({
+                navigation : true,
+                items : 3,
+                itemsDesktop : [1199,3],
+                itemsDesktopSmall : [980,3],
+                itemsTablet: [768,2],
+                itemsMobile : [479,1],
+                responsive:{
+                    0:{
+                        items:1,
+                        nav:true
+                    },
+                    1000:{
+                        items:3,
+                        nav:true,
+                        loop:false
+                    }
+                },
+            });
+
+        });
+    </script>
+    <!--Owl End-->
+
+    </section>
+    <!--Last Store Items End-->
+
+
+
+
+
+    <!--Categories Start-->
+    <section class="continer">
+        <div id="category_board" class="continer">
+            <div class="row">
+                <div class="col-md-5 category_board_item center_content" id="category_board_item_1">
+                    <div class="center_content gray_background"></div>
+                    <h1>کفش های مردانه</h1>
+                </div>
+                <div class="col-md-7 category_board_item center_content" id="category_board_item_2">
+                    <div class="center_content gray_background"></div>
+                    <h1>کفش های زنانه</h1>
+                </div>
+                <div class="col-md-7 category_board_item center_content" id="category_board_item_3">
+                    <div class="center_content gray_background"></div>
+                    <h1>کفش های ست</h1>
+                </div>
+                <div class="col-md-5 category_board_item center_content" id="category_board_item_4">
+                    <div class="center_content gray_background"></div>
+                    <h1>کفش های جدید</h1>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!--Categories End-->
+    
+
+
+
+
+    <!--Instagram Last Posts Start-->
+    <section>
+        <div class="continer" id="instagram-posts-content">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://www.instagram.com/clown_sport/">
+                        <div class="instagram-item">
+                            <img src="Assets/Img/instagram.png"width="100%"/>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://www.instagram.com/clown_sport/">
+                        <div class="instagram-item">
+                            <img src="Assets/Img/instagram.png"width="100%"/>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://www.instagram.com/clown_sport/">
+                        <div class="instagram-item">
+                            <img src="Assets/Img/instagram.png"width="100%"/>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Instagram Last Posts End-->
+
+
+
+
+   
+
+    <!--Footer Start-->
+    <section>
+        <br>
+        <br>
+        <br>
+        <!-- Footer -->
+        <div id="Footer">
+            <hr id="footer-hr">
+            <footer class="page-footer font-small stylish-color-dark pt-4">
+
+                <!-- Footer Links -->
+                <div class="container text-center text-md-left RTL_CLS">
+
+                    <!-- Grid row -->
+                    <div class="row" style="direction: rtl;">
+
+
+                        <hr class="clearfix w-100 d-md-none">
+
+                        <!-- Grid column -->
+                        <div class="col-md-1 mx-auto">
+
+                            <ul class="footer-column">
+                                <li><a href="#">خانه</a></li>
+                                <li><a href="#">وبلاگ</a></li>
+                                <li><a href="#">اینستاگرام</a></li>
+                                <li><a href="#">بازی</a></li>
+                                <li><a href="#">دلقک</a></li>
+                            </ul>
+
+                        </div>
+                        <!-- Grid column -->
+
+
+                        
+                        <!-- Grid column -->
+                        <div class="col-md-3 mx-auto">
+                            <div class="footer-ditale">
+                                <p>آدرس : خیابان شهید محمدی ترمینال جنوب پلاک 3 واحد6</p>
+
+                                <div class="footer-ditale">
+                                    <a href="http://google.com">rezafarazi1378@gmail.com</a>
+                                    <a href="http://google.com">66244444 - 021</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Grid column -->
+
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 mx-auto" style="margin-top:14px;display: flex;margin: 0 auto;width: max-content;">
+
+                            <a href="#"><img src="https://digibom.com/wp-content/uploads/2018/10/DB165.jpg" width="200px"/></a>
+                            <a href="#"><img src="https://hassanabedi.com/uploads/editor/e17731.png" width="125px"/></div>
+
+                        </div>
+                        <!-- Grid column -->
+
+
+                    </div>
+                    <!-- Grid row -->
+
+                </div>
+                <!-- Footer Links -->
+
+                <br>
+
+                <hr>
+
+                <!-- Social buttons -->
+                <ul class="list-unstyled list-inline text-center">
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/sorchi.app.14" class="btn-floating btn-fb mx-1" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/IrSorapp" class="btn-floating btn-tw mx-1" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-gplus mx-1" target="_blank">
+                            <i class="fab fa-google-plus-g"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://t.me/joinchat/AAAAAEVQ2TjewljCg_0sLg" class="btn-floating btn-dribbble mx-1" target="_blank">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.instagram.com/sorapp.ir" target="_blank" class="btn-floating btn-dribbble mx-1">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+                <!-- Social buttons -->
+
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3">طراحی قالب سایت
+                    <a href="http://sorapp.ir/">سوراپ</a>
+                </div>
+                <!-- Copyright -->
+
+            </footer>
+        </div>
+        <!-- Footer -->
+    </section>
+    <!--Footer End-->
+
+
+
+
+    <!--Css Icon Start-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!--Css Icon End-->
+
+    <!--Boot Starp Start-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!--Boot Starp End-->
+
+    <!--Java Script Start-->
+    <script src="Assets/Js/Main.js"></script>
+    <!--Java Script End-->
+
+    
+
+</body>
+</html>
